@@ -6,13 +6,13 @@ In Hexo, post excerpts are usually specified by adding the `<!-- more -->` tag t
 
 By using the Hexo Front Matter Excerpt plugin, you can specify your excerpt in your post front matter.
 
-2014-09-2-ExamplePost.md
+`2014-09-2-ExamplePost.md`
 
-		---
-		title: "Example Post"
-		excerpt: "This is my post excerpt"
-		---
-		Man, I really love writing posts on my nifty blog!
+	---
+	title: "Example Post"
+	excerpt: "This is my post excerpt"
+	---
+	Man, I really love writing posts on my nifty blog!
 In this example, the above post's excerpt would be `This is my post excerpt`
 
 This plugin will override the excerpt created by using Hexo's built in `<!-- more -->` tag.
