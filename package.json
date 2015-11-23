@@ -3,7 +3,7 @@
 	"description": "A plugin for the Hexo static site generator to add support for post excerpts in yaml front matter.",
 	"keywords": ["hexo", "yaml", "plugin"],
 	"homepage": "https://github.com/lalunamel/hexo-front-matter-excerpt",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"main": "index",
 	"author": "Cody Sehl (http://www.github.com/lalunamel)",
 	"repository": {

@@ -3,10 +3,20 @@
 A Hexo plugin to allow writing post excerpts using YAML front matter.
 
 In Hexo, post excerpts are usually specified by adding the `<!-- more -->` tag to your post content.
+For example:
+
+`2014-09-2-ExamplePost-HtmlCommentExcerpt.md`
+
+	---
+	title: "Example Post"
+	---
+	This is my post excerpt
+	<!-- more -->
+	Man, I really love writing posts on my nifty blog!
 
 By using the Hexo Front Matter Excerpt plugin, you can specify a post's excerpt in its front matter.
 
-`2014-09-2-ExamplePost.md`
+`2014-09-2-ExamplePost-FrontmatterExcerpt.md`
 
 	---
 	title: "Example Post"
@@ -17,3 +27,6 @@ By using the Hexo Front Matter Excerpt plugin, you can specify a post's excerpt 
 Now, "This is my post excerpt" will be available by calling `.excerpt` on this post.
 
 This plugin will override the excerpt created by using Hexo's built in `<!-- more -->` tag.
+
+
+This plugin supports definition of `post.excerpt` using `<!-- more -->` and using YAML front matter. If an excerpt is specified using the `<!-- more -->` tag, it will override an excerpt specified using YAML front matter if there is one. If niether are defined, `post.excerpt` will be `undefined`.
