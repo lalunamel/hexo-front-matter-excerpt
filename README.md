@@ -30,3 +30,9 @@ This plugin will override the excerpt created by using Hexo's built in `<!-- mor
 
 
 This plugin supports definition of `post.excerpt` using `<!-- more -->` and using YAML front matter. If an excerpt is specified using the `<!-- more -->` tag, it will override an excerpt specified using YAML front matter if there is one. If niether are defined, `post.excerpt` will be `undefined`.
+
+# Development & Contributing
+1. Add your feature to `index.js`
+2. Write a test for your feature in `/spec/index_spec.js`
+3. Run your test with `node_modules/.bin/jasmine` from the command line
+4. Submit a pull request
